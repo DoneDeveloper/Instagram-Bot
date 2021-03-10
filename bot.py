@@ -1,7 +1,7 @@
 from instapy import InstaPy
 
 
-# Inside those two variable you will put your credentials. I left it blank
+# In these two fields ( username and password ) you will put your credentials. I left it blank for privacy reasons.
 session = InstaPy(username = "", password="",headless_browser=True)
 session.login()
 
